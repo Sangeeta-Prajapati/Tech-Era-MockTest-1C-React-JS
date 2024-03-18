@@ -13,6 +13,7 @@ class Course extends Component {
           <div>
             <img src={logoUrl} alt={name} className="logo-image" />
           </div>
+
           <p className="link-items">{name}</p>
         </li>
       </Link>
