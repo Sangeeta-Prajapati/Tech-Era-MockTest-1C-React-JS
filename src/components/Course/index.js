@@ -7,6 +7,7 @@ class Course extends Component {
   render() {
     const {details} = this.props
     const {id, logoUrl, name} = details
+
     return (
       <Link to={`courses/${id}`}>
         <li className="list-item">
